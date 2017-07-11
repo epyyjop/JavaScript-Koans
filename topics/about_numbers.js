@@ -1,4 +1,3 @@
-
 module("About Numbers (topics/about_numbers.js)");
 
 test("types", function() {
@@ -12,6 +11,5 @@ test("types", function() {
 test("NaN", function() {
     var resultOfFailedOperations = 7/'apple';
     equal(true, isNaN(resultOfFailedOperations), 'what will satisfy the equals assertion?');
-console.log(NaN);
     equal(false, resultOfFailedOperations == NaN, 'is NaN == NaN?');
 });
